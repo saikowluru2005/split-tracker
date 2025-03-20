@@ -7,7 +7,7 @@ function addPerson() {
     people.push({ name, label, amount });
     document.getElementById('name').value = '';
     document.getElementById('label').value = '';
-    document.getElementById('amount').value = '';
+    document.getElementById('amount').value = 0;
     displayPeople();
   }
 }
