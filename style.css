@@ -1,0 +1,77 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  h1 {
+    text-align: center;
+    color: #00bcd4;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateX(-50px); }
+    to { transform: translateX(0); }
+  }
+  
+  .input-section input, button {
+    padding: 12px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  input {
+    background-color: #333;
+    color: #fff;
+    width: calc(30% - 20px);
+  }
+  
+  button {
+    background-color: #00bcd4;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #008c9e;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #333;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .calculate-btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
